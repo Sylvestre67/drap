@@ -1,0 +1,32 @@
+{
+  "name": "DRAP",
+  "homepage": "N/A",
+  "description": "An empty DjangoRESTFrameworkAngularPostgresql (DRAP) project ready to be deployed on Heroku.",
+  "main": "",
+  "authors": [
+    "sylvestre.gug@gmail.com"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "d3": "^4.2.0",
+    "angular-mocks": "^1.5.8",
+    "angular-material": "^1.0.9",
+    "angular-ui-router": "ui-router#^0.3.1",
+    "angular-material-data-table": "^0.10.9",
+    "moment": "^2.14.1",
+    "angular-resource": "^1.5.8"
+  },
+  "resolutions": {
+    "angular": "^1.5.8"
+  }
+}

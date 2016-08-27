@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" {% block ng_app %}{% endblock %}>
+
+{% load static from staticfiles %}
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>{% block title %}OSS Reporting{% endblock %}</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="OpenSlate">
+
+		<link rel="icon" type="image/png" href="{% static 'dist/img/pstar_favicon.svg' %}">
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<link rel="stylesheet" href="{% static 'vendor/angular-material-data-table/dist/md-data-table.min.css' %}">
+
+		<link rel="stylesheet" href="{% static 'dist/css/main.min.css' %}">
+
+		{% block extrahead %}{% endblock%}
+	</head>
+
+	<body class="{% block body_class %}{% endblock %}">
+
+		{% block top %}{% endblock %}
+
+		{% block main %}{% endblock main %}
+
+		{% block footer %}{% endblock %}
+
+		<script src="http://localhost:35729/livereload.js"></script>
+	</body>
+
+</html>
